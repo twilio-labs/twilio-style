@@ -1,6 +1,8 @@
-const rules = require('./rules.json');
+const style = require('./rules/style');
 
 module.exports = {
-	extends: ["eslint:recommended"],
-	rules: rules,
+	extends: ['eslint:recommended', style],
+	rules: {
+		strict: ['error', 'never'],
+	},
 };
