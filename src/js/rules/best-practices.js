@@ -74,7 +74,7 @@ module.exports = {
         'no-void': 'error',
         'no-warning-comments': 'error',
         'prefer-named-capture-group': 'warning',
-        'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+        'prefer-promise-reject-errors': ['error', {allowEmptyReject: true}],
         'radix': 'error',
         'require-await': 'off',
         'require-unicode-regexp': 'off',
