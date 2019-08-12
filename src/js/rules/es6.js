@@ -2,11 +2,28 @@ module.exports = {
     rules: {
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-parens': ['error', 'as-needed'],
-        'arrow-spacing': ['error', {before: true, after: true}],
+        'arrow-spacing': [
+            'error',
+            {
+                before: true,
+                after: true,
+            },
+        ],
         'constructor-super': 'error',
-        'generator-star-spacing': ['error', { before: false, after: true }],
+        'generator-star-spacing': [
+            'error',
+            {
+                before: false,
+                after: true,
+            },
+        ],
         'no-class-assign': 'error',
-        'no-confusing-arrow': ['error', {allowParens: true}],
+        'no-confusing-arrow': [
+            'error',
+            {
+                allowParens: true,
+            },
+        ],
         'no-const-assign': 'error',
         'no-dupe-class-members': 'error',
         'no-duplicate-imports': 'error',
@@ -19,11 +36,22 @@ module.exports = {
         'no-var': 'error',
         'object-shorthand': ['error', 'always'],
         'prefer-arrow-callback': 'error',
-        'prefer-const': ['error', {destructuring: 'any', ignoreReadBeforeAssign: false}],
+        'prefer-const': [
+            'error',
+            {
+                destructuring: 'any',
+                ignoreReadBeforeAssign: false,
+            },
+        ],
         'prefer-destructuring': [
             'error',
-            {array: false, object: true},
-            {enforceForRenamedProperties: false},
+            {
+                array: false,
+                object: true,
+            },
+            {
+                enforceForRenamedProperties: false,
+            },
         ],
         'prefer-numeric-literals': 'error',
         'prefer-rest-params': 'error',
@@ -42,6 +70,11 @@ module.exports = {
         ],
         'symbol-description': 'error',
         'template-curly-spacing': ['error', 'never'],
-        'yield-star-spacing': ['error', {before: false, after: true}],
+        'yield-star-spacing': [
+            'error',
+            {
+                before: false,
+                after: true,
+            }],
     },
 };
