@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-twilio",
+  "version": "1.0.0",
+  "description": "Twilio's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio/eslint-config-twilio.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "twilio",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Twilio @twilio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twilio/eslint-config-twilio/issues"
+  },
+  "homepage": "https://github.com/twilio/eslint-config-twilio#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
