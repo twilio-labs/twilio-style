@@ -67,7 +67,4 @@ dist/
 plugin-test/
 **/node_modules
 
-# Package Locks
-package-lock.json
-
 .idea
