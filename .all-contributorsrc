@@ -24,6 +24,15 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "theryankennedy",
+      "name": "Ryan Kennedy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/218683?v=4",
+      "profile": "https://github.com/theryankennedy",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
