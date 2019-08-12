@@ -4,7 +4,7 @@
   "description": "Twilio's ESLint config",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
   "homepage": "https://github.com/twilio/eslint-config-twilio#readme",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
   }
 }
