@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twilio/eslint-config-twilio.git"
+    "url": "git+https://github.com/twilio-labs/eslint-config-twilio.git"
   },
   "keywords": [
     "eslint",
@@ -21,9 +21,9 @@
   "author": "Twilio @twilio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/twilio/eslint-config-twilio/issues"
+    "url": "https://github.com/twilio-labs/eslint-config-twilio/issues"
   },
-  "homepage": "https://github.com/twilio/eslint-config-twilio#readme",
+  "homepage": "https://github.com/twilio-labs/eslint-config-twilio#readme",
   "peerDependencies": {
     "eslint": ">= 3"
   },
