@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Twilio's ESLint config",
   "main": "src/index.js",
   "scripts": {
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "jest": "^24.8.0"
   }
 }
