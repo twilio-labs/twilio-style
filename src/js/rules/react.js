@@ -2,13 +2,16 @@ module.exports = {
     plugins: [
         'react',
     ],
-
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
         },
     },
-
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
     rules: {
         'react/boolean-prop-naming': 'off',
         'react/button-has-type': [
@@ -175,7 +178,6 @@ module.exports = {
         ],
         'react/jsx-sort-default-props': 'off',
         'react/jsx-sort-props': 'off',
-        'react/jsx-space-before-closing': 'error',
         'react/jsx-tag-spacing': [
             'error',
             {
