@@ -1,4 +1,5 @@
 # eslint-config-twilio
+
 [![Status](https://travis-ci.com/twilio-labs/eslint-config-twilio.svg?branch=master)](https://travis-ci.com/twilio-labs/eslint-config-twilio)
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
@@ -6,6 +7,34 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 This package provides Twilio's .eslintrc as an extensible shared config.
+
+## Installation
+
+```bash
+$ npm install eslint-config-twilio --save-dev
+```
+
+## Usage
+
+Add an ESLint config to your `package.json`:
+
+```json
+{
+	"name": "my-project",
+	"eslintConfig": {
+		"extends": "eslint-config-twilio"
+	}
+}
+```
+
+Or to `.eslintrc`:
+
+```json
+{
+	"extends": "eslint-config-twilio"
+}
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -23,3 +52,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+MIT
