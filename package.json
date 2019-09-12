@@ -30,6 +30,7 @@
     "jest": "^24.8.0"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-react": "^7.14.3"
   }
 }
