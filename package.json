@@ -2,34 +2,35 @@
   "name": "eslint-config-twilio",
   "version": "1.2.1",
   "description": "Twilio's ESLint config",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "jest"
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "twilio"
+  ],
+  "homepage": "https://github.com/twilio-labs/eslint-config-twilio#readme",
+  "bugs": {
+    "url": "https://github.com/twilio-labs/eslint-config-twilio/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twilio-labs/eslint-config-twilio.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "twilio",
-    "javascript",
-    "styleguide"
-  ],
-  "author": "Twilio @twilio",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/twilio-labs/eslint-config-twilio/issues"
-  },
-  "homepage": "https://github.com/twilio-labs/eslint-config-twilio#readme",
-  "peerDependencies": {
-    "eslint": ">= 3"
+  "author": "Twilio @twilio",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-react": "^7.14.3",
     "jest": "^24.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-plugin-react": "^7.14.3"
   }
 }
