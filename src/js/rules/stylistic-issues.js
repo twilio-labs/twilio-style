@@ -116,7 +116,7 @@ module.exports = {
                 capIsNew: false,
             },
         ],
-        'new-parens': ['error', 'always'],
+        'new-parens': 'error',
         'newline-per-chained-call': [
             'error',
             {
