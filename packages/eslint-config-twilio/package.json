@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Twilio's ESLint config",
   "keywords": [
     "config",
@@ -28,7 +28,6 @@
   "scripts": {
     "test": "jest --coverage --color"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.5.1"
   },
