@@ -1,31 +1,36 @@
 {
-	"name": "eslint-config-twilio-react",
-	"version": "1.3.0",
-	"description": "Twilio's ESLint config",
-	"keywords": [
-		"config",
-		"eslint",
-		"eslintconfig",
-		"javascript",
-		"styleguide",
-		"twilio"
-	],
-	"homepage": "https://github.com/twilio-labs/twilio-style#readme",
-	"bugs": {
-		"url": "https://github.com/twilio-labs/twilio-style/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/twilio-labs/twilio-style.git"
-	},
-	"license": "MIT",
-	"author": "Twilio @twilio",
-	"files": [
-		"rules",
-		"index.js"
-	],
-	"main": "index.js",
-	"dependencies": {
-		"eslint-plugin-react": "^7.15.1"
-	}
+  "name": "eslint-config-twilio-react",
+  "version": "1.3.0",
+  "description": "Twilio's ESLint config",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "twilio"
+  ],
+  "homepage": "https://github.com/twilio-labs/twilio-style#readme",
+  "bugs": {
+    "url": "https://github.com/twilio-labs/twilio-style/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio-labs/twilio-style.git"
+  },
+  "license": "MIT",
+  "author": "Twilio @twilio",
+  "files": [
+    "rules",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --color"
+  },
+  "dependencies": {
+    "eslint-config-twilio": "1.3.0",
+    "eslint-plugin-react": "^7.15.1"
+  },
+  "devDependencies": {}
 }
