@@ -31,7 +31,13 @@ run_script npm run test
 
 # Publish
 if [ "$1" == "public" ] ; then
+  echo -e "\n------------------------------------"
+  echo "-- Publishing as a public release --"
+  echo -e "------------------------------------\n"
   run_script $LERNA publish
 else
+  echo -e "\n-----------------------------------------"
+  echo "-- Publishing as a beta (next) release --"
+  echo -e "-----------------------------------------\n"
   run_script $LERNA publish --dist-tag next
 fi
