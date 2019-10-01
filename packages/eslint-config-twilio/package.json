@@ -26,9 +26,13 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --color"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "peerDependencies": {
     "eslint": "^6.5.1"
   }
 }
