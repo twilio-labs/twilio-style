@@ -120,7 +120,7 @@ module.exports = {
         'newline-per-chained-call': [
             'error',
             {
-                ignoreChainWithDepth: 1,
+                ignoreChainWithDepth: 2,
             },
         ],
         'no-array-constructor': 'error',
