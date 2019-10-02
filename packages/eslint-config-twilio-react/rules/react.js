@@ -73,7 +73,7 @@ module.exports = {
         'react/no-unescaped-entities': 'error',
         'react/no-unknown-property': 'error',
         'react/no-unsafe': 'warn',
-        'react/no-unused-prop-type': 'error',
+        'react/no-unused-prop-types': 'error',
         'react/no-unused-state': 'warn',
         'react/no-will-update-set-state': 'error',
         'react/prefer-es6-class': ['error', 'always'],
