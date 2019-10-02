@@ -159,7 +159,22 @@ module.exports = {
         'object-curly-newline': [
             'error',
             {
-                multiline: true,
+                ObjectExpression: {
+                    multiline: true,
+                    minProperties: 2,
+                },
+                ObjectPattern: {
+                    multiline: true,
+                    minProperties: 2,
+                },
+                ImportDeclaration: {
+                    multiline: true,
+                    minProperties: 2,
+                },
+                ExportDeclaration: {
+                    multiline: true,
+                    minProperties: 2,
+                },
             },
         ],
         'object-curly-spacing': ['error', 'always'],
