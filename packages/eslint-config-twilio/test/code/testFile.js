@@ -1,3 +1,7 @@
-module.exports = function defaultFunction() {
-    return 'default-value';
+module.exports = function uglyCode() {
+    return (
+    <div>
+    Hello World
+    </div>
+    );
 };
