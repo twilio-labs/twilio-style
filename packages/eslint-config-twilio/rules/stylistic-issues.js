@@ -50,7 +50,7 @@ module.exports = {
         'id-length': 'off',
         'id-match': 'off',
         'implicit-arrow-linebreak': ['error', 'beside'],
-        'indent': ['error', 4],
+        'indent': ['error', 2],
         'jsx-quotes': ['error', 'prefer-double'],
         'key-spacing': [
             'error',
