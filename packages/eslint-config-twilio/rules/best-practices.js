@@ -72,7 +72,7 @@ module.exports = {
         'no-useless-concat': 'error',
         'no-useless-return': 'error',
         'no-void': 'error',
-        'no-warning-comments': 'error',
+        'no-warning-comments': 'warn',
         'prefer-named-capture-group': 'warn',
         'prefer-promise-reject-errors': [
             'error',
