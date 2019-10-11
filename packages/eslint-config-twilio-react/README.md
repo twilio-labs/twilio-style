@@ -24,7 +24,7 @@ Add the ESLint config to either your `package.json` or your `.eslintrc`:
   "name": "my-project",
   "eslintConfig": {
     "extends": [
-      "eslint-config-twilio-react"
+      "twilio-react"
     ]
   }
 }
@@ -35,7 +35,7 @@ Add the ESLint config to either your `package.json` or your `.eslintrc`:
 ```json
 {
   "extends": [
-    "eslint-config-twilio-react"
+    "twilio-react"
   ]
 }
 ```
