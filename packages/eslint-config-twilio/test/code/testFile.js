@@ -1,7 +1,7 @@
 module.exports = function uglyCode() {
-    return (
+  return (
     <div>
     Hello World
     </div>
-    );
+  );
 };

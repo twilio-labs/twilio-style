@@ -9,7 +9,7 @@ describe('eslint-config-twilio', () => {
     const report = eslint.executeOnFiles([
       path.join(__dirname, 'code')
     ]);
-    
+
     expect(report.results.length).toBeGreaterThan(0);
     expect(report.errorCount).toBe(1);
   });
