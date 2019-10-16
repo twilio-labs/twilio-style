@@ -44,7 +44,7 @@ module.exports = {
     'func-call-spacing': ['error', 'never'],
     'func-name-matching': ['off'],
     'func-names': ['warn', 'as-needed'],
-    'func-style': 'warn',
+    'func-style': ['warn', 'declaration'],
     'function-paren-newline': ['error', 'multiline'],
     'id-blacklist': 'off',
     'id-length': 'off',
@@ -72,8 +72,7 @@ module.exports = {
     'lines-around-comment': [
       'error',
       {
-        beforeBlockComment: true,
-        beforeLineComment: true,
+        beforeBlockComment: false,
       },
     ],
     'lines-between-class-members': [
@@ -86,7 +85,7 @@ module.exports = {
     'max-depth': ['warn', 5],
     'max-len': [
       'error',
-      100,
+      120,
       2,
       {
         ignoreUrls: true,
