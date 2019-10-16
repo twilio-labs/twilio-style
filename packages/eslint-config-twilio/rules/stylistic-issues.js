@@ -72,8 +72,7 @@ module.exports = {
     'lines-around-comment': [
       'error',
       {
-        beforeBlockComment: true,
-        beforeLineComment: true,
+        beforeBlockComment: false,
       },
     ],
     'lines-between-class-members': [
@@ -86,7 +85,7 @@ module.exports = {
     'max-depth': ['warn', 5],
     'max-len': [
       'error',
-      100,
+      120,
       2,
       {
         ignoreUrls: true,
