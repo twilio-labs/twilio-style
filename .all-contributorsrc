@@ -33,10 +33,20 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "dlemstra",
+      "name": "Dirk Lemstra",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10426229?v=4",
+      "profile": "https://twitter.com/MagickNET",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "eslint-config-twilio",
+  "projectName": "twilio-style",
   "projectOwner": "twilio-labs",
   "repoType": "github",
   "repoHost": "https://github.com"
