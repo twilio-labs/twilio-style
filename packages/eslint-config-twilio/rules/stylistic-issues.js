@@ -7,12 +7,7 @@ module.exports = {
       },
     ],
     'array-bracket-spacing': ['error', 'never'],
-    'array-element-newline': [
-      'error',
-      {
-        multiline: true,
-      },
-    ],
+    'array-element-newline': ['error', 'consistent'],
     'block-spacing': ['error', 'always'],
     'brace-style': [
       'error',
@@ -42,9 +37,9 @@ module.exports = {
     'consistent-this': 'error',
     'eol-last': ['error', 'always'],
     'func-call-spacing': ['error', 'never'],
-    'func-name-matching': ['off'],
+    'func-name-matching': 'off',
     'func-names': ['warn', 'as-needed'],
-    'func-style': ['warn', 'declaration'],
+    'func-style': 'off',
     'function-paren-newline': ['error', 'multiline'],
     'id-blacklist': 'off',
     'id-length': 'off',
