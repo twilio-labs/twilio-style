@@ -10,6 +10,7 @@ This monorepo contains styling guide for:
 
 * [JavaScript](./packages/eslint-config-twilio)
 * [React](./packages/eslint-config-twilio-react)
+* [TypeScript](./packages/eslint-config-twilio-ts)
 
 ## Usage
 
