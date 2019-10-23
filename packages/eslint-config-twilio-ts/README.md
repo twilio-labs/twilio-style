@@ -1,9 +1,8 @@
-# eslint-config-twilio-react
+# eslint-config-twilio-ts
 
-[![Status](https://travis-ci.com/twilio-labs/eslint-config-twilio-ts.svg?branch=master)](https://travis-ci.com/twilio-labs/eslint-config-twilio-ts)
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio-ts.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio-ts)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio-ts.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio-ts)
-[![License](https://img.shields.io/npm/l/eslint-config-twilio.svg-ts?style=square)](../../LICENSE)
+[![License](https://img.shields.io/npm/l/eslint-config-twilio.svg?style=square)](../../LICENSE)
 
 Twilio's approach to TypeScript styling.
 
