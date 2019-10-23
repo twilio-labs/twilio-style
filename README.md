@@ -1,10 +1,10 @@
 # const TwilioStyle = () => {
 
-[![Status](https://travis-ci.com/twilio-labs/eslint-config-twilio.svg?branch=master)](https://travis-ci.com/twilio-labs/eslint-config-twilio)
+[![Status](https://travis-ci.com/twilio-labs/twilio-style.svg?branch=master)](https://travis-ci.com/twilio-labs/twilio-style)
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![License](https://img.shields.io/npm/l/eslint-config-twilio.svg?style=square)](./LICENSE)
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 
 This monorepo contains styling guide for:
 

@@ -8,10 +8,10 @@
     "eslintconfig",
     "javascript",
     "styleguide",
-    "twilio",
-    "typescript",
     "ts",
-    "tslint"
+    "tslint",
+    "twilio",
+    "typescript"
   ],
   "homepage": "https://github.com/twilio-labs/twilio-style#readme",
   "bugs": {

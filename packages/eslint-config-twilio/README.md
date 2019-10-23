@@ -1,6 +1,5 @@
 # eslint-config-twilio
 
-[![Status](https://travis-ci.com/twilio-labs/eslint-config-twilio.svg?branch=master)](https://travis-ci.com/twilio-labs/eslint-config-twilio)
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![License](https://img.shields.io/npm/l/eslint-config-twilio.svg?style=square)](../../LICENSE)
