@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    'react/prop-types': 'off',
+    'react/sort-comp': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error', 
       {
@@ -13,7 +15,7 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': [
       'error',
       {
-        'allowSingleExtends': false,
+        allowSingleExtends: false,
       },
     ],
 
@@ -25,7 +27,9 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': [
       'error',
       {
-        allows: ['readonly'],
+        allows: [
+          'readonly',
+        ],
       },
     ],
     '@typescript-eslint/no-require-imports': 'error',
