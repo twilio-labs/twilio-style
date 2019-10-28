@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'eslint-config-twilio',
     'plugin:@typescript-eslint/recommended',
-    './rules/typescript'
+    './rules/typescript',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
