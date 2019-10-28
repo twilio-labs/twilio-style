@@ -78,6 +78,7 @@ module.exports = {
         html: true,
       },
     ],
+    'react/jsx-props-no-spreading': 'off',
     'react/sort-comp': 'error',
     'react/sort-prop-types': 'off',
     'react/state-in-constructor': 'off',

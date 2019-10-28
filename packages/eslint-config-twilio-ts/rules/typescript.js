@@ -1,15 +1,10 @@
 module.exports = {
   rules: {
+    // We use Interface instead of PropTypes in TS
     'react/prop-types': 'off',
+    // Methods are sorted based on their modifiers, not React method ordering
     'react/sort-comp': 'off',
-    '@typescript-eslint/explicit-function-return-type': [
-      'error', 
-      {
-        allowExpressions: true,
-        allowTypedFunctionExpressions: true,
-        allowHigherOrderFunctions: true,
-      },
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/member-ordering': 'error',
     '@typescript-eslint/no-empty-interface': [
