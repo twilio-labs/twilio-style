@@ -18,7 +18,12 @@ module.exports = {
     'no-extra-parens': 'off',
     '@typescript-eslint/no-extra-parens': ['error'],
 
-    '@typescript-eslint/no-floating-promises': 'error',
+    '@typescript-eslint/no-floating-promises': [
+      'error',
+      {
+        ignoreVoid: false
+      },
+    ],
     '@typescript-eslint/no-parameter-properties': [
       'error',
       {
