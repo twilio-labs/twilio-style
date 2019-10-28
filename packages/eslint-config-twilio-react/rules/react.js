@@ -78,6 +78,7 @@ module.exports = {
         html: true,
       },
     ],
+    'react/jsx-props-no-spreading': 'off',
     'react/sort-comp': 'error',
     'react/sort-prop-types': 'off',
     'react/state-in-constructor': 'off',
@@ -140,12 +141,7 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
-    'react/jsx-one-expression-per-line': [
-      'error',
-      {
-        allow: 'literal',
-      },
-    ],
+    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-brace-presence': [
       'error',
       {
