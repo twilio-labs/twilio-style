@@ -7,6 +7,12 @@ module.exports = {
     './rules/stylistic-issues',
   ].map(require.resolve),
   rules: {
-    strict: ['error', 'never'],
+    strict: [
+      'error', 
+      'never',
+    ],
+  },
+  env: {
+    es6: true,
   },
 };
