@@ -38,13 +38,24 @@ module.exports = {
     // We must disable the base rule as it can report incorrect errors.
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
-
+    '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/promise-function-async': 'error',
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
-    '@typescript-eslint/typedef': 'error',
+    '@typescript-eslint/typedef': [
+      'error',
+      {
+        arrayDestructuring: false,
+        arrowParameter: false,
+        memberVariableDeclaration: true,
+        objectDestructuring: false,
+        parameter: true,
+        propertyDeclaration: true,
+        variableDeclaration: false,
+      }
+    ],
     '@typescript-eslint/unified-signatures': 'error',
   },
 };
