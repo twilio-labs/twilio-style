@@ -30,15 +30,13 @@
     "test": "jest --coverage --color"
   },
   "dependencies": {
-    "eslint-config-twilio-base": "file:///Users/ktalebian/Projects/github/twilio-labs/twilio-style/packages/eslint-config-twilio-base"
+    "eslint-config-twilio-base": "^1.12.1"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.18.2",
-    "prettier-eslint": "^9.0.0",
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier": "^1.18.2"
   },
   "peerDependencies": {
     "eslint": "^6.5.1"
