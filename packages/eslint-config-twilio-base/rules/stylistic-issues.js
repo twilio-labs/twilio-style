@@ -105,7 +105,16 @@ module.exports = {
   'lines-around-comment': [
     'error',
     {
-      beforeBlockComment: false,
+      beforeBlockComment: true,
+      afterBlockComment: true,
+      beforeLineComment: true,
+      afterLineComment: true,
+      allowBlockStart: true,
+      allowBlockEnd: true,
+      allowObjectStart: true,
+      allowObjectEnd: true,
+      allowArrayStart: true,
+      allowArrayEnd: true
     },
   ],
   'lines-between-class-members': [

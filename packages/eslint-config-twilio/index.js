@@ -1,9 +1,12 @@
 const rules = require('./rules');
 
-module.exports = {
-  extends: [],
+module.exports = { 
+  extends: [
+    'prettier',
+    'twilio-base',
+  ],
+  plugins: [
+    'prettier',
+  ],
   rules,
-  env: {
-    es6: true,
-  },
 };

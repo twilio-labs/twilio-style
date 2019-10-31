@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-twilio",
+  "name": "eslint-config-twilio-base",
   "version": "1.12.1",
-  "description": "Twilio's ESLint config",
+  "description": "Twilio's ESLint base config",
   "keywords": [
     "config",
     "eslint",
@@ -26,19 +26,10 @@
   ],
   "main": "index.js",
   "scripts": {
-    "check-duplicate": "eslint --print-config index.js | eslint-config-prettier-check",
     "test": "jest --coverage --color"
   },
-  "dependencies": {
-    "eslint-config-twilio-base": "file:///Users/ktalebian/Projects/github/twilio-labs/twilio-style/packages/eslint-config-twilio-base"
-  },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.18.2",
-    "prettier-eslint": "^9.0.0",
-    "prettier-eslint-cli": "^5.0.0"
+    "eslint": "^6.5.1"
   },
   "peerDependencies": {
     "eslint": "^6.5.1"
