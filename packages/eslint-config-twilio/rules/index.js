@@ -7,4 +7,3 @@ module.exports = Object.assign(
     require('./stylistic-issues'),
     require('./variables'),
 );
-
