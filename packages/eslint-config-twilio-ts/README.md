@@ -9,7 +9,7 @@ Twilio's approach to TypeScript styling.
 ## Installation
 
 ```bash
-$ npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-twilio-ts --save-dev
+$ npm install eslint eslint-config-twilio-ts --save-dev
 ```
 
 ## Usage
@@ -38,3 +38,18 @@ Add the ESLint config to either your `package.json` or your `.eslintrc`:
   ]
 }
 ```
+
+Then add the following two scripts for running and fixing your codebase:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint --ext ts src/",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
+
+## Enabling React
+
+To enable React linting in TypeScript, also install `eslint-config-twilio-react` and add `twilio-react` as an extension to your ESLint Config file.

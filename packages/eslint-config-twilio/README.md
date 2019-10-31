@@ -38,3 +38,14 @@ Add the ESLint config to either your `package.json` or your `.eslintrc`:
   ]
 }
 ```
+
+Then add the following two scripts for running and fixing your codebase:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint --ext js src/",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
+```
