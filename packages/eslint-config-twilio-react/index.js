@@ -1,8 +1,9 @@
+const rules = require('./rules');
+
 module.exports = {
   extends: [
-    'eslint-config-twilio',
-    './rules/react',
-  ].map(require.resolve),
+    'twilio',
+  ],
   plugins: [
     'react',
   ],
@@ -16,5 +17,5 @@ module.exports = {
       version: 'detect',
     },
   },
-  rules: {},
+  rules,
 };

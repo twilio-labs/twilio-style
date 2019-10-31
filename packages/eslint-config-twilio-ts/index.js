@@ -1,8 +1,9 @@
+const rules = require('./rules');
+
 module.exports = {
   extends: [
-    'eslint-config-twilio',
+    'twilio',
     'plugin:@typescript-eslint/recommended',
-    './rules/typescript',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -12,5 +13,7 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
+    '@typescript-eslint/recommended'
   ],
+  rules,
 };
