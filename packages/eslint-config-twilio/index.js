@@ -1,9 +1,7 @@
 const rules = require('./rules');
 
 module.exports = {
-  extends: [
-    'plugin:prettier/recommended'
-  ],
+  extends: [],
   rules,
   env: {
     es6: true,
