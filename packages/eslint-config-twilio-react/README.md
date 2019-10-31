@@ -44,7 +44,7 @@ Then add the following two scripts for running and fixing your codebase:
 ```json
 {
   "scripts": {
-    "lint": "eslint --ext js --ext --jsx src/",
+    "lint": "eslint --ext js --ext jsx src/",
     "lint:fix": "npm run lint -- --fix"
   }
 }

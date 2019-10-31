@@ -52,4 +52,13 @@ Then add the following two scripts for running and fixing your codebase:
 
 ## Enabling React
 
-To enable React linting in TypeScript, also install `eslint-config-twilio-react` and add `twilio-react` as an extension to your ESLint Config file.
+To enable React linting in TypeScript, also install `eslint-config-twilio-react` and add `twilio-react` as an extension to your ESLint Config file. Then update the `lint` script to:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint --ext ts --ext tsx src/"
+  }
+}
+```
+
