@@ -6,15 +6,15 @@ module.exports = {
     },
   ],
   'array-bracket-spacing': [
-    'error', 
+    'error',
     'never',
   ],
   'array-element-newline': [
-    'error', 
+    'error',
     'consistent',
   ],
   'block-spacing': [
-    'error', 
+    'error',
     'always',
   ],
   'brace-style': [
@@ -33,7 +33,7 @@ module.exports = {
   ],
   'capitalized-comments': 'off',
   'comma-dangle': [
-    'error', 
+    'error',
     'always-multiline',
   ],
   'comma-spacing': [
@@ -44,42 +44,42 @@ module.exports = {
     },
   ],
   'comma-style': [
-    'error', 
+    'error',
     'last',
   ],
   'computed-property-spacing': [
-    'error', 
+    'error',
     'never',
   ],
   'consistent-this': 'error',
   'eol-last': [
-    'error', 
+    'error',
     'always',
   ],
   'func-call-spacing': [
-    'error', 
+    'error',
     'never',
   ],
   'func-name-matching': 'off',
   'func-names': [
-    'warn', 
+    'warn',
     'as-needed',
   ],
   'func-style': 'off',
   'function-paren-newline': [
-    'error', 
+    'error',
     'multiline',
   ],
   'id-blacklist': 'off',
   'id-length': 'off',
   'id-match': 'off',
   'implicit-arrow-linebreak': [
-    'error', 
+    'error',
     'beside',
   ],
   'indent': ['error', 2],
   'jsx-quotes': [
-    'error', 
+    'error',
     'prefer-double',
   ],
   'key-spacing': [
@@ -99,13 +99,22 @@ module.exports = {
   ],
   'line-comment-position': 'off',
   'linebreak-style': [
-    'error', 
+    'error',
     'unix',
   ],
   'lines-around-comment': [
     'error',
     {
-      beforeBlockComment: false,
+      beforeBlockComment: true,
+      afterBlockComment: true,
+      beforeLineComment: true,
+      afterLineComment: true,
+      allowBlockStart: true,
+      allowBlockEnd: true,
+      allowObjectStart: true,
+      allowObjectEnd: true,
+      allowArrayStart: true,
+      allowArrayEnd: true,
     },
   ],
   'lines-between-class-members': [
@@ -140,11 +149,11 @@ module.exports = {
     },
   ],
   'multiline-comment-style': [
-    'error', 
+    'error',
     'starred-block',
   ],
   'multiline-ternary': [
-    'error', 
+    'error',
     'always-multiline',
   ],
   'new-cap': [
@@ -216,7 +225,7 @@ module.exports = {
     },
   ],
   'object-curly-spacing': [
-    'error', 
+    'error',
     'always',
   ],
   'object-property-newline': [
@@ -226,15 +235,15 @@ module.exports = {
     },
   ],
   'one-var': [
-    'error', 
+    'error',
     'never',
   ],
   'one-var-declaration-per-line': [
-    'error', 
+    'error',
     'always',
   ],
   'operator-assignment': [
-    'error', 
+    'error',
     'always',
   ],
   'operator-linebreak': [
@@ -247,13 +256,13 @@ module.exports = {
     },
   ],
   'padded-blocks': [
-    'error', 
+    'error',
     'never',
   ],
   'padding-line-between-statements': 'off',
   'prefer-object-spread': 'error',
   'quote-props': [
-    'error', 
+    'error',
     'as-needed',
   ],
   'quotes': [
@@ -264,7 +273,7 @@ module.exports = {
     },
   ],
   'semi': [
-    'error', 
+    'error',
     'always',
   ],
   'semi-spacing': [
@@ -275,12 +284,12 @@ module.exports = {
     },
   ],
   'semi-style': [
-    'error', 
+    'error',
     'last',
   ],
   'sort-keys': 'off',
   'space-before-blocks': [
-    'error', 
+    'error',
     'always',
   ],
   'space-before-function-paren': [
@@ -292,7 +301,7 @@ module.exports = {
     },
   ],
   'space-in-parens': [
-    'error', 
+    'error',
     'never',
   ],
   'space-infix-ops': 'error',
@@ -304,7 +313,7 @@ module.exports = {
     },
   ],
   'spaced-comment': [
-    'error', 
+    'error',
     'always',
   ],
   'switch-colon-spacing': [
@@ -315,11 +324,11 @@ module.exports = {
     },
   ],
   'template-tag-spacing': [
-    'error', 
+    'error',
     'never',
   ],
   'unicode-bom': [
-    'error', 
+    'error',
     'never',
   ],
   'wrap-regex': 'off',
