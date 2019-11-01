@@ -106,9 +106,9 @@ module.exports = {
     'error',
     {
       beforeBlockComment: true,
-      afterBlockComment: true,
+      afterBlockComment: false,
       beforeLineComment: true,
-      afterLineComment: true,
+      afterLineComment: false,
       allowBlockStart: true,
       allowBlockEnd: true,
       allowObjectStart: true,
