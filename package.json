@@ -23,6 +23,7 @@
   "scripts": {
     "bootstrap": "lerna exec -- npm i && lerna link",
     "postinstall": "npm run bootstrap",
+    "lint": "lerna run lint --stream --no-prefix",
     "test": "lerna run test --stream --no-prefix"
   },
   "husky": {
@@ -36,7 +37,6 @@
     "babel-jest": "^24.9.0",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
-    "lerna": "^3.18.3",
-    "ts-jest": "^24.1.0"
+    "lerna": "^3.18.3"
   }
 }

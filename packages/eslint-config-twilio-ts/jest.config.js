@@ -3,7 +3,6 @@ const pkg = require('./package');
 
 module.exports = {
   ...base,
-  preset: 'ts-jest',
   name: pkg.name,
   displayName: pkg.name,
   rootDir: '../..',
