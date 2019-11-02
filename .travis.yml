@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - '8'
+  - '12'
 
 before_script:
   - npm install
@@ -14,4 +14,3 @@ branches:
   - /^v\d+\.\d+\.\d+$/
   only:
   - master
-  - dev
