@@ -33,7 +33,9 @@
     "eslint-config-twilio": "^1.13.2"
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.15.1"
+    "eslint-plugin-react": "^7.15.1",
+    "prettier": "^1.18.2",
+    "react": "^16.11.0"
   },
   "peerDependencies": {
     "eslint-plugin-react": "^7.15.1"

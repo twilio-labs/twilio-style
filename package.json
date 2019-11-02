@@ -23,13 +23,19 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --no-ci",
     "postinstall": "npm run bootstrap",
-    "test": "jest --coverage --color",
-    "test:watch": "jest --watchAll --color"
+    "test": "lerna run test --stream --no-prefix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "@types/jest": "^24.0.21",
+    "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "ts-jest": "^24.1.0"
   }
 }
