@@ -10,7 +10,7 @@ module.exports = {
   'no-process-exit': 'error',
   'no-restricted-modules': 'off',
   'vars-on-top': 'error',
-  'strict': [
+  strict: [
     'error', 
     'never',
   ],

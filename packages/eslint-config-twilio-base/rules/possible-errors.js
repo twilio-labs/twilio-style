@@ -4,9 +4,7 @@ module.exports = {
   'no-extra-parens': [
     'error',
     'all',
-    {
-      ignoreJSX: 'all',
-    },
+    { ignoreJSX: 'all' },
   ],
   'no-template-curly-in-string': 'error',
 };

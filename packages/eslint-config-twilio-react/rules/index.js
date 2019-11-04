@@ -1,4 +1,5 @@
-module.exports = Object.assign(
-  {},
-  require('./react'),
-);
+/* eslint global-require: 0 */
+
+module.exports = {
+  ...require('./react'),
+};

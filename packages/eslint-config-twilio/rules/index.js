@@ -1,5 +1,6 @@
-module.exports = Object.assign(
-  {},
-  require('./base'),
-  require('./prettier'),
-);
+/* eslint global-require: 0 */
+
+module.exports = {
+  ...require('./base'),
+  ...require('./prettier'),
+};

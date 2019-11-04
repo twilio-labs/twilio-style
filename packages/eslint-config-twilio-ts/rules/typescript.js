@@ -1,13 +1,11 @@
 module.exports = {
   // We use Interface instead of PropTypes in TS
   'react/prop-types': 'off',
+
   // Methods are sorted based on their modifiers, not React method ordering
   'react/sort-comp': 'off',
   '@typescript-eslint/explicit-function-return-type': 'off',
-  '@typescript-eslint/indent': [
-    'error', 
-    2,
-  ],
+  '@typescript-eslint/indent': ['error', 2],
   '@typescript-eslint/member-ordering': 'error',
   '@typescript-eslint/no-empty-interface': [
     'error',
@@ -23,15 +21,13 @@ module.exports = {
   '@typescript-eslint/no-floating-promises': [
     'error',
     {
-      ignoreVoid: false
+      ignoreVoid: false,
     },
   ],
   '@typescript-eslint/no-parameter-properties': [
     'error',
     {
-      allows: [
-        'readonly',
-      ],
+      allows: ['readonly'],
     },
   ],
   '@typescript-eslint/no-require-imports': 'error',
@@ -56,7 +52,7 @@ module.exports = {
       parameter: true,
       propertyDeclaration: true,
       variableDeclaration: false,
-    }
+    },
   ],
   '@typescript-eslint/unified-signatures': 'error',
 };

@@ -1,3 +1,7 @@
 {
-  "extends": "./index.js"
+  "extends": "./index.js",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  }
 }

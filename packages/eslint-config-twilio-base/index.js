@@ -2,7 +2,5 @@ const rules = require('./rules');
 
 module.exports = {
   rules,
-  env: {
-    es6: true,
-  },
+  env: { es6: true },
 };

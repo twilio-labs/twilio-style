@@ -1,3 +1,7 @@
 {
-  "extends": "twilio"
+  "extends": "twilio",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  }
 }
