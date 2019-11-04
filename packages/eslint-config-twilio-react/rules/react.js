@@ -82,7 +82,7 @@ module.exports = {
   'react/sort-prop-types': 'off',
   'react/state-in-constructor': 'off',
   'react/static-property-placement': [
-    'warn', 
+    'warn',
     'static public field',
   ],
   'react/style-prop-object': 'error',
@@ -93,7 +93,7 @@ module.exports = {
 
   // TODO: Test tag-aligned and line-aligned.
   'react/jsx-closing-bracket-location': [
-    'error', 
+    'error',
     'tag-aligned',
   ],
   'react/jsx-closing-tag-location': 'error',
@@ -112,21 +112,21 @@ module.exports = {
     },
   ],
   'react/jsx-equals-spacing': [
-    'error', 
+    'error',
     'never',
   ],
   'react/jsx-filename-extension': 'off',
   'react/jsx-first-prop-new-line': [
-    'error', 
+    'error',
     'multiline',
   ],
   'react/jsx-handler-names': 'off',
   'react/jsx-indent': [
-    'error', 
+    'error',
     2,
   ],
   'react/jsx-indent-props': [
-    'error', 
+    'error',
     2,
   ],
   'react/jsx-key': 'error',
@@ -201,4 +201,4 @@ module.exports = {
       prop: 'parens-new-line',
     },
   ],
-}
+};

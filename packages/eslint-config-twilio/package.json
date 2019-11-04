@@ -27,6 +27,8 @@
   "main": "index.js",
   "scripts": {
     "check-duplicate": "eslint --print-config index.js | eslint-config-prettier-check",
+    "lint": "eslint --ext js index.js rules/",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest --coverage --color"
   },
   "dependencies": {

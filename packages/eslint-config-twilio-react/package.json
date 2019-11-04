@@ -27,13 +27,17 @@
   ],
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext js index.js rules/",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest --coverage --color"
   },
   "dependencies": {
     "eslint-config-twilio": "^1.13.2"
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.15.1"
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.15.1",
+    "react": "^16.11.0"
   },
   "peerDependencies": {
     "eslint-plugin-react": "^7.15.1"

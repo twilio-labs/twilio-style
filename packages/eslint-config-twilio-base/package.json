@@ -26,10 +26,12 @@
   ],
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext js index.js rules/",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest --coverage --color"
   },
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "eslint": "^6.6.0"
   },
   "peerDependencies": {
     "eslint": "^6.5.1"
