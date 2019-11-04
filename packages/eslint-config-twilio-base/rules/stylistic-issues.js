@@ -1,9 +1,7 @@
 module.exports = {
   'array-bracket-newline': [
     'error',
-    {
-      multiline: true,
-    },
+    { multiline: true },
   ],
   'array-bracket-spacing': [
     'error',
@@ -20,9 +18,7 @@ module.exports = {
   'brace-style': [
     'error',
     '1tbs',
-    {
-      allowSingleLine: false,
-    },
+    { allowSingleLine: false },
   ],
   camelcase: [
     'error',
@@ -77,7 +73,7 @@ module.exports = {
     'error',
     'beside',
   ],
-  'indent': ['error', 2],
+  indent: ['error', 2],
   'jsx-quotes': [
     'error',
     'prefer-double',
@@ -120,9 +116,7 @@ module.exports = {
   'lines-between-class-members': [
     'error',
     'always',
-    {
-      exceptAfterSingleLine: false,
-    },
+    { exceptAfterSingleLine: false },
   ],
   'max-depth': ['warn', 5],
   'max-len': [
@@ -144,9 +138,7 @@ module.exports = {
   'max-statements': 'off',
   'max-statements-per-line': [
     'error',
-    {
-      max: 1,
-    },
+    { max: 1 },
   ],
   'multiline-comment-style': [
     'error',
@@ -166,9 +158,7 @@ module.exports = {
   'new-parens': 'error',
   'newline-per-chained-call': [
     'error',
-    {
-      ignoreChainWithDepth: 2,
-    },
+    { ignoreChainWithDepth: 2 },
   ],
   'no-array-constructor': 'error',
   'no-bitwise': 'warn',
@@ -191,9 +181,7 @@ module.exports = {
   'no-new-object': 'error',
   'no-plusplus': [
     'error',
-    {
-      allowForLoopAfterthoughts: true,
-    },
+    { allowForLoopAfterthoughts: true },
   ],
   'no-restricted-syntax': 'off',
   'no-tabs': 'off',
@@ -230,9 +218,7 @@ module.exports = {
   ],
   'object-property-newline': [
     'error',
-    {
-      allowAllPropertiesOnSameLine: false,
-    },
+    { allowAllPropertiesOnSameLine: false },
   ],
   'one-var': [
     'error',
@@ -249,11 +235,7 @@ module.exports = {
   'operator-linebreak': [
     'error',
     'before',
-    {
-      overrides: {
-        '=': 'none',
-      },
-    },
+    { overrides: { '=': 'none' } },
   ],
   'padded-blocks': [
     'error',
@@ -265,14 +247,12 @@ module.exports = {
     'error',
     'as-needed',
   ],
-  'quotes': [
+  quotes: [
     'error',
     'single',
-    {
-      avoidEscape: true,
-    },
+    { avoidEscape: true },
   ],
-  'semi': [
+  semi: [
     'error',
     'always',
   ],

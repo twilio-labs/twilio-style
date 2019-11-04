@@ -1,12 +1,8 @@
 const rules = require('./rules');
 
 module.exports = {
-  extends: [
-    'twilio',
-  ],
-  plugins: [
-    'react',
-  ],
+  extends: ['twilio'],
+  plugins: ['react'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

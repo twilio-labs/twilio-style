@@ -3,9 +3,9 @@ module.exports = {
   'array-callback-return': 'error',
   'block-scoped-var': 'error',
   'class-methods-use-this': 'off',
-  'complexity': 'error',
+  complexity: 'error',
   'consistent-return': 'error',
-  'curly': [
+  curly: [
     'error', 
     'all',
   ],
@@ -15,7 +15,7 @@ module.exports = {
     'property',
   ],
   'dot-notation': 'error',
-  'eqeqeq': 'error',
+  eqeqeq: 'error',
   'guard-for-in': 'error',
   'max-classes-per-file': 'error',
   'no-alert': 'error',
@@ -64,16 +64,14 @@ module.exports = {
   'prefer-named-capture-group': 'warn',
   'prefer-promise-reject-errors': [
     'error',
-    {
-      allowEmptyReject: true,
-    },
+    { allowEmptyReject: true },
   ],
-  'radix': 'error',
+  radix: 'error',
   'require-await': 'off',
   'require-unicode-regexp': 'off',
   'wrap-iife': [
     'error', 
     'inside',
   ],
-  'yoda': 'error',
+  yoda: 'error',
 };

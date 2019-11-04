@@ -36,8 +36,10 @@ module.exports = {
   ],
   'react/forbid-foreign-prop-types': 'error',
 
-  // TODO (@acai): Test to see if a reference var with this.state errors.
-  // TODO (@ktalebian): See if we can implement a custom warning message.
+  /*
+   * TODO (@acai): Test to see if a reference var with this.state errors.
+   * TODO (@ktalebian): See if we can implement a custom warning message.
+   */
   'react/no-access-state-in-setstate': 'error',
   'react/no-array-index-key': 'off',
   'react/no-children-prop': 'error',
@@ -81,10 +83,7 @@ module.exports = {
   'react/sort-comp': 'error',
   'react/sort-prop-types': 'off',
   'react/state-in-constructor': 'off',
-  'react/static-property-placement': [
-    'warn',
-    'static public field',
-  ],
+  'react/static-property-placement': ['warn', 'static public field'],
   'react/style-prop-object': 'error',
   'react/void-dom-elements-no-children': 'error',
 
@@ -92,10 +91,7 @@ module.exports = {
   'react/jsx-child-element-spacing': 'warn',
 
   // TODO: Test tag-aligned and line-aligned.
-  'react/jsx-closing-bracket-location': [
-    'error',
-    'tag-aligned',
-  ],
+  'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
   'react/jsx-closing-tag-location': 'error',
   'react/jsx-curly-newline': [
     'error',
@@ -111,24 +107,12 @@ module.exports = {
       allowMultiline: true,
     },
   ],
-  'react/jsx-equals-spacing': [
-    'error',
-    'never',
-  ],
+  'react/jsx-equals-spacing': ['error', 'never'],
   'react/jsx-filename-extension': 'off',
-  'react/jsx-first-prop-new-line': [
-    'error',
-    'multiline',
-  ],
+  'react/jsx-first-prop-new-line': ['error', 'multiline'],
   'react/jsx-handler-names': 'off',
-  'react/jsx-indent': [
-    'error',
-    2,
-  ],
-  'react/jsx-indent-props': [
-    'error',
-    2,
-  ],
+  'react/jsx-indent': ['error', 2],
+  'react/jsx-indent-props': ['error', 2],
   'react/jsx-key': 'error',
   'react/jsx-max-depth': [
     'warn',

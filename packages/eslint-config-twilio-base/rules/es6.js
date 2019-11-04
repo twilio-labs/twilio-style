@@ -25,9 +25,7 @@ module.exports = {
   'no-class-assign': 'error',
   'no-confusing-arrow': [
     'error',
-    {
-      allowParens: false,
-    },
+    { allowParens: false },
   ],
   'no-const-assign': 'error',
   'no-dupe-class-members': 'error',
@@ -57,9 +55,7 @@ module.exports = {
       array: false,
       object: true,
     },
-    {
-      enforceForRenamedProperties: false,
-    },
+    { enforceForRenamedProperties: false },
   ],
   'prefer-numeric-literals': 'error',
   'prefer-rest-params': 'error',
@@ -89,5 +85,6 @@ module.exports = {
     {
       before: false,
       after: true,
-    }],
+    },
+  ],
 };
