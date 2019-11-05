@@ -32,7 +32,7 @@
     "test": "jest --coverage --color"
   },
   "dependencies": {
-    "eslint-config-twilio": "^1.15.0"
+    "eslint-config-twilio": "^1.14.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
