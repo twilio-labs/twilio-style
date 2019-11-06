@@ -1,4 +1,4 @@
-// These are the rules that prettier will take care of
+// These are the rules that are unnecessary or might conflict with Prettier.
 module.exports = {
   'comma-dangle': 'off',
   'array-bracket-newline': 'off',
