@@ -62,3 +62,15 @@ To enable React linting in TypeScript, also install `eslint-config-twilio-react`
 }
 ```
 
+### .eslintrc
+
+NOTE: `twilio-ts` should come after `twilio-react` because `twilio-ts` overrides conflicting rules:
+
+```json
+{
+  "extends": [
+    "twilio-react",
+    "twilio-ts"
+  ]
+}
+```
