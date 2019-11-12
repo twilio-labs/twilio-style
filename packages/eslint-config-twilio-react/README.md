@@ -9,7 +9,7 @@ Twilio's approach to React styling.
 ## Installation
 
 ```bash
-$ npm install eslint eslint-plugin-react eslint-config-twilio-react --save-dev
+$ npm install eslint eslint-config-twilio-react --save-dev
 ```
 
 ## Usage
