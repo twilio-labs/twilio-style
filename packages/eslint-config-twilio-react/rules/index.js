@@ -3,4 +3,5 @@
 module.exports = {
   ...require('./react'),
   ...require('./overrides'),
+  ...require('./a11y'),
 };
