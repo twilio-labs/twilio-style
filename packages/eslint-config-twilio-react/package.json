@@ -34,7 +34,8 @@
   "dependencies": {
     "eslint-config-twilio": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.15.1"
+    "eslint-plugin-react": "^7.15.1",
+    "eslint-plugin-react-hooks": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
