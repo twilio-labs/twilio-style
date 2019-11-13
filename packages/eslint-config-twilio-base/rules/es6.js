@@ -66,15 +66,7 @@ module.exports = {
     'error', 
     'never',
   ],
-  'sort-imports': [
-    'off',
-    {
-      ignoreCase: false,
-      ignoreDeclarationSort: false,
-      ignoreMemberSort: false,
-      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-    },
-  ],
+  'sort-imports': 'off',
   'symbol-description': 'error',
   'template-curly-spacing': [
     'error', 
