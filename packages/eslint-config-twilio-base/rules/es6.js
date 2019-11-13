@@ -67,7 +67,7 @@ module.exports = {
     'never',
   ],
   'sort-imports': [
-    'error',
+    'off',
     {
       ignoreCase: false,
       ignoreDeclarationSort: false,
