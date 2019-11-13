@@ -1,5 +1,6 @@
-// These are the rules that are unnecessary or might conflict with Prettier.
+// These are the rules that are unnecessary or might conflict with plugins.
 module.exports = {
+  // eslint-plugin-prettier
   'comma-dangle': 'off',
   'array-bracket-newline': 'off',
   'array-bracket-spacing': 'off',
@@ -58,4 +59,7 @@ module.exports = {
   'prefer-arrow-callback': 'off',
   'no-mixed-operators': 'off',
   quotes: 'off',
+
+  // eslint-config-import
+  'sort-import': 'off',
 };
