@@ -6,6 +6,10 @@
 
 Twilio's approach to JavaScript styling.
 
+This config includes:
+- [`prettier`](https://www.npmjs.com/package/prettier)
+- [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)
+
 ## Installation
 
 ```bash
