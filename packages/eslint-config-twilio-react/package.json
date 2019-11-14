@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio-react",
-  "version": "1.19.1",
+  "version": "1.19.2",
   "description": "Twilio's ESLint React config",
   "keywords": [
     "config",
@@ -32,7 +32,7 @@
     "test": "jest --coverage --color"
   },
   "dependencies": {
-    "eslint-config-twilio": "^1.19.1",
+    "eslint-config-twilio": "^1.19.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.15.1",
     "eslint-plugin-react-hooks": "^2.2.0"
