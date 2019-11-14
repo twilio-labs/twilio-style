@@ -61,5 +61,5 @@ module.exports = {
   quotes: 'off',
 
   // eslint-config-import
-  'sort-import': 'off',
+  'sort-imports': 'off',
 };
