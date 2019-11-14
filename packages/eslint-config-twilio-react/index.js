@@ -9,7 +9,6 @@ module.exports = {
     },
   },
   settings: {
-    'import/extensions': ['.js', '.jsx'],
     react: {
       version: 'detect',
     },
