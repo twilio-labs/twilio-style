@@ -31,7 +31,10 @@ module.exports = {
     },
   ],
   '@typescript-eslint/no-require-imports': 'error',
-  '@typescript-eslint/no-unnecessary-condition': 'error',
+  '@typescript-eslint/no-unnecessary-condition': [
+    'error',
+    { ignoreRhs: true },
+  ],
 
   // We must disable the base rule as it can report incorrect errors.
   'no-useless-constructor': 'off',
