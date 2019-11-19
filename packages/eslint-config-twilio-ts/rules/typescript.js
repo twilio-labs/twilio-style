@@ -31,7 +31,9 @@ module.exports = {
     },
   ],
   '@typescript-eslint/no-require-imports': 'error',
-  '@typescript-eslint/no-unnecessary-condition': 'error',
+
+  // Turning this rule off until https://github.com/typescript-eslint/typescript-eslint/pull/1163 gets merged.
+  '@typescript-eslint/no-unnecessary-condition': 'off',
 
   // We must disable the base rule as it can report incorrect errors.
   'no-useless-constructor': 'off',
@@ -42,17 +44,6 @@ module.exports = {
   '@typescript-eslint/promise-function-async': 'error',
   '@typescript-eslint/require-array-sort-compare': 'error',
   '@typescript-eslint/restrict-plus-operands': 'error',
-  '@typescript-eslint/typedef': [
-    'error',
-    {
-      arrayDestructuring: false,
-      arrowParameter: false,
-      memberVariableDeclaration: true,
-      objectDestructuring: false,
-      parameter: true,
-      propertyDeclaration: true,
-      variableDeclaration: false,
-    },
-  ],
+  '@typescript-eslint/typedef': 'off',
   '@typescript-eslint/unified-signatures': 'error',
 };
