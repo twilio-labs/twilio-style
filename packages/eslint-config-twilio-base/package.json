@@ -20,6 +20,10 @@
   },
   "license": "MIT",
   "author": "Twilio @twilio",
+  "contributors": [
+    "Alice Cai <ahcai@berkeley.edu>",
+    "Kousha Talebian <k@ousha.me>"
+  ],
   "files": [
     "rules",
     "index.js"
