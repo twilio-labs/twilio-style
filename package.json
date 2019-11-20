@@ -20,6 +20,10 @@
   },
   "license": "MIT",
   "author": "Twilio @twilio",
+  "contributors": [
+    "Alice Cai <ahcai@berkeley.edu>",
+    "Kousha Talebian <k@ousha.me>"
+  ],
   "scripts": {
     "bootstrap": "lerna exec -- npm i && lerna link",
     "postinstall": "npm run bootstrap",
