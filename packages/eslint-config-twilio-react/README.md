@@ -6,7 +6,11 @@
 
 Twilio's approach to React styling.
 
-This config includes:
+## Plugins and Extensions
+
+This config includes the following plugins and extensions:
+
+- [`eslint-config-twilio`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio)
 - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
 - [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 - [`eslint-plugin-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)

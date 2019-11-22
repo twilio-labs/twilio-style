@@ -6,6 +6,13 @@
 
 Twilio's approach to TypeScript styling.
 
+## Plugins and Extensions
+
+This config includes the following plugins and extensions:
+
+- [`eslint-config-twilio`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio)
+- [`@typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint)
+
 ## Installation
 
 ```bash

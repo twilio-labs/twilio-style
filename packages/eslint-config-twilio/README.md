@@ -6,7 +6,11 @@
 
 Twilio's approach to JavaScript styling.
 
-This config includes:
+## Plugins and Extensions
+
+This config includes the following plugins and extensions:
+
+- [`eslint-config-twilio-base`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio-base)
 - [`prettier`](https://www.npmjs.com/package/prettier)
 - [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)
 

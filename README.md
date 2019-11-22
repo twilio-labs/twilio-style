@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![License](https://img.shields.io/npm/l/eslint-config-twilio.svg?style=square)](./LICENSE)
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat)](./CONTRIBUTORS.md)
 
 Twilio's approach to JavaScript styling. It combines both the ESLint rules and Prettier to create an opinionated set of styling and linting rules to use with your JavaScript and TypeScript projects.
 
