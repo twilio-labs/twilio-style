@@ -3,7 +3,7 @@ const rules = require('./rules');
 const allExtensions = ['.ts', '.tsx', '.d.ts', '.js', '.jsx'];
 
 module.exports = {
-  extends: ['prettier', 'twilio-base'],
+  extends: ['twilio-base', 'prettier'],
   plugins: ['import', 'prettier'],
   settings: {
     'import/extensions': allExtensions,
