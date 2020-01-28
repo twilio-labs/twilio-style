@@ -1,1 +1,0 @@
-/Users/ktalebian/Projects/github/twilio-labs/twilio-style/packages/eslint-config-twilio/rules/prettier.js
