@@ -58,3 +58,15 @@ Then add the following two scripts for running and fixing your codebase:
   }
 }
 ```
+
+### .prettier.js
+
+If you want to allow your IDE to auto-format your code as you save it, then create a `.prettierrc.js` and add:
+
+```js
+const baseConfig = require('./node_modules/eslint-config-twilio/rules/prettier');
+
+module.exports = {
+  ...baseConfig,
+};
+``` 
