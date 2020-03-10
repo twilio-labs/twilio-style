@@ -38,7 +38,7 @@
   "dependencies": {
     "eslint-config-prettier": "^6.5.0",
     "eslint-config-twilio-base": "^1.20.2",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.1",
     "prettier": "^1.18.2"
   },
