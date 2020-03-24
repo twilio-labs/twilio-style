@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio-ts",
-  "version": "1.20.3",
+  "version": "1.21.0",
   "description": "Twilio's ESLint TypeScript config",
   "keywords": [
     "config",
@@ -40,7 +40,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.5.0",
     "@typescript-eslint/parser": "^2.5.0",
-    "eslint-config-twilio": "^1.20.3",
+    "eslint-config-twilio": "^1.21.0",
     "typescript": "^3.7.2"
   },
   "devDependencies": {
