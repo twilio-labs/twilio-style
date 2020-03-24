@@ -147,7 +147,7 @@ module.exports = {
     'error',
     {
       props: 'never',
-      children: 'never',
+      children: 'ignore',
     },
   ],
   'react/jsx-fragments': 'off',
