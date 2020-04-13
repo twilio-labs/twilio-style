@@ -38,8 +38,8 @@
     "test": "jest --coverage --color"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "eslint-config-twilio": "^1.22.0",
     "typescript": "^3.8.3"
   },
