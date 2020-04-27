@@ -25,7 +25,10 @@
     "Kousha Talebian <k@ousha.me>"
   ],
   "scripts": {
+    "audit": "lerna-audit",
     "bootstrap": "lerna exec -- npm i && lerna link",
+    "dependencies": "npm-check-updates && lerna exec npm-check-updates",
+    "dependencies:bump": "npm-check-updates -u && lerna exec npm-check-updates -- -u",
     "postinstall": "npm run bootstrap",
     "lint": "lerna run lint --stream --no-prefix",
     "lint:fix": "lerna run lint:fix --stream --no-prefix",
@@ -39,9 +42,11 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "babel-jest": "^25.3.0",
+    "babel-jest": "^25.4.0",
     "husky": "^4.2.5",
-    "jest": "^25.3.0",
-    "lerna": "^3.20.2"
+    "jest": "^25.4.0",
+    "lerna": "^3.20.2",
+    "lerna-audit": "^1.2.0",
+    "ncu": "^0.2.1"
   }
 }
