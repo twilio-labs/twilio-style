@@ -32,6 +32,8 @@
     "postinstall": "npm run bootstrap",
     "lint": "lerna run lint --stream --no-prefix",
     "lint:fix": "lerna run lint:fix --stream --no-prefix",
+    "publish:next": "bin/publish",
+    "publish:public": "bin/publish public",
     "test": "lerna run test --stream --no-prefix"
   },
   "husky": {
