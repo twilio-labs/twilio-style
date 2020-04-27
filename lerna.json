@@ -2,5 +2,16 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.22.1"
+  "version": "1.22.1",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "publish": {
+      "ignoreChanges": [
+        "packages/*/package-lock.json",
+        "package-lock.json"
+      ]
+    }
+  }
 }
