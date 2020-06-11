@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-twilio-mocha",
+  "version": "1.23.0",
+  "description": "Twilio's ESLint Mocha config",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "mocha",
+    "styleguide",
+    "twilio"
+  ],
+  "homepage": "https://github.com/twilio-labs/twilio-style#readme",
+  "bugs": {
+    "url": "https://github.com/twilio-labs/twilio-style/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio-labs/twilio-style.git"
+  },
+  "license": "MIT",
+  "author": "Twilio @twilio",
+  "contributors": [
+    "Alice Cai <ahcai@berkeley.edu>",
+    "Kousha Talebian <k@ousha.me>"
+  ],
+  "files": [
+    "rules",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext js index.js overrides/",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest --coverage --color"
+  },
+  "dependencies": {
+    "eslint-config-twilio": "^1.23.0",
+    "eslint-plugin-chai-friendly": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
