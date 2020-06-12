@@ -52,11 +52,23 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "vnguyen94",
+      "name": "Van Nguyen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6936736?v=4",
+      "profile": "https://github.com/vnguyen94",
+      "contributions": [
+        "code",
+        "ideas",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "twilio-style",
   "projectOwner": "twilio-labs",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
