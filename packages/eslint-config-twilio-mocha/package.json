@@ -1,12 +1,13 @@
 {
-  "name": "eslint-config-twilio",
-  "version": "1.24.0",
-  "description": "Twilio's ESLint config",
+  "name": "eslint-config-twilio-mocha",
+  "version": "1.24.1",
+  "description": "Twilio's ESLint Mocha config",
   "keywords": [
     "config",
     "eslint",
     "eslintconfig",
     "javascript",
+    "mocha",
     "styleguide",
     "twilio"
   ],
@@ -25,27 +26,20 @@
     "Kousha Talebian <k@ousha.me>"
   ],
   "files": [
-    "rules",
+    "overrides",
     "index.js"
   ],
   "main": "index.js",
   "scripts": {
-    "check-duplicate": "eslint --print-config index.js | eslint-config-prettier-check",
-    "lint": "eslint --ext js index.js rules/",
+    "lint": "eslint --ext js index.js overrides/",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --coverage --color"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-twilio-base": "^1.23.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-prettier": "^3.1.3",
-    "prettier": "^2.0.5"
+    "eslint-config-twilio": "^1.24.0",
+    "eslint-plugin-chai-friendly": "^0.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
+    "eslint": "^6.8.0"
   }
 }
