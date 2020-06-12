@@ -26,7 +26,7 @@
     "Kousha Talebian <k@ousha.me>"
   ],
   "files": [
-    "rules",
+    "overrides",
     "index.js"
   ],
   "main": "index.js",
