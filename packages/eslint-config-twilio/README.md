@@ -13,6 +13,7 @@ This config includes the following plugins and extensions:
 - [`eslint-config-twilio-base`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio-base)
 - [`prettier`](https://www.npmjs.com/package/prettier)
 - [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)
+- [`eslint-plugin-no-only-tests`](https://www.npmjs.com/package/eslint-plugin-no-only-tests)
 
 ## Installation
 
