@@ -1,7 +1,7 @@
 const path = require('path');
 const CLIEngine = require('eslint').CLIEngine;
 
-describe('eslint-config-twilio-base', () => {
+describe('eslint-config-twilio-mocha', () => {
   it('lints correctly', () => {
     const eslint = new CLIEngine({
       configFile: path.join(__dirname, '../index.js'),
