@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio-mocha",
-  "version": "1.24.0",
+  "version": "1.24.1",
   "description": "Twilio's ESLint Mocha config",
   "keywords": [
     "config",
