@@ -1,5 +1,7 @@
 // These are the rules that are unnecessary or might conflict with plugins.
 module.exports = {
+  // no-only-tests
+  'no-only-tests/no-only-tests': 'error',
   // eslint-plugin-prettier
   'comma-dangle': 'off',
   'array-bracket-newline': 'off',
