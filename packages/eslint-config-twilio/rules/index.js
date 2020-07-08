@@ -2,6 +2,11 @@
 
 module.exports = {
   ...require('./overrides'),
-  ...require('./prettier'),
   ...require('./import'),
+  'prettier/prettier': [
+    'error',
+    {
+      ...require('./prettier'),
+    },
+  ],
 };
