@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Runs audit on all directories
+## Runs audit on all lerna packages
 ## By default, it just runs the audit. To fix issues, pass 'audit' argument
 ## i.e.
 ##    ./bin/audit       # Runs the audit
@@ -8,6 +8,13 @@
 
 homeDir="$(pwd)"
 arg=$1
+
+echo "=== Auditing Root ==="
+if [ "$arg" == "fix" ] ; then
+  npm audit fix
+else
+  npm audit
+fi
 
 for dir in ./packages/*; do
     [ -d "${dir}" ] || continue

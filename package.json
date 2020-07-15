@@ -25,7 +25,6 @@
     "Kousha Talebian <k@ousha.me>"
   ],
   "scripts": {
-    "audit": "lerna-audit",
     "audit:check": "bin/audit",
     "audit:fix": "bin/audit fix",
     "bootstrap": "lerna exec -- npm i && lerna link",
@@ -50,7 +49,6 @@
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lerna": "^3.22.1",
-    "lerna-audit": "^1.2.0",
     "ncu": "^0.2.1"
   }
 }
