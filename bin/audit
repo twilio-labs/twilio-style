@@ -1,0 +1,25 @@
+#!/bin/bash
+
+## Runs audit on all directories
+## By default, it just runs the audit. To fix issues, pass 'audit' argument
+## i.e.
+##    ./bin/audit       # Runs the audit
+##    ./bin/audit fix   # Attempts to auto-fix issues
+
+homeDir="$(pwd)"
+arg=$1
+
+for dir in ./packages/*; do
+    [ -d "${dir}" ] || continue
+
+    cd $dir
+    dirName=$(basename "$dir")
+    echo "=== Auditing $dirName ==="
+    if [ "$arg" == "fix" ] ; then
+      npm audit fix
+    else
+      npm audit
+    fi
+
+    cd $homeDir
+done
