@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio-base",
-  "version": "1.25.0",
+  "version": "1.28.0",
   "description": "Twilio's ESLint base config",
   "keywords": [
     "config",
