@@ -9,24 +9,52 @@
 homeDir="$(pwd)"
 arg=$1
 
-echo "=== Auditing Root ==="
-if [ "$arg" == "fix" ] ; then
-  npm audit fix
-else
-  npm audit
+# Check requires packages
+if ! command -v /usr/local/bin/ncu &> /dev/null ; then
+  echo "ncu command not found - install it using 'npm install -g npm-check-updates' and run script again"
+  exit 1
 fi
+if ! command -v /usr/local/bin/depcheck &> /dev/null ; then
+  echo "depcheck command not found - install it using 'npm install -g depcheck' and run script again"
+  exit 1
+fi
+
+function audit() {
+  echo "=== Auditing $1 ==="
+  if [ "$arg" == "fix" ] ; then
+    npm audit fix
+  else
+    npm audit
+  fi
+  echo -e "\n\r"
+}
+
+function checkDependencies() {
+  echo "=== Checking Unused Dependencies on $1 ==="
+  /usr/local/bin/depcheck
+  echo -e "\n\r"
+}
+
+function checkUpdate() {
+  echo "=== Checking Dependency Update on $1 ==="
+  /usr/local/bin/ncu
+  echo -e "\n\r"
+}
+
+function check() {
+  audit "$1"
+  checkDependencies "$1"
+  checkUpdate "$1"
+}
+
+check "Root"
 
 for dir in ./packages/*; do
     [ -d "${dir}" ] || continue
 
     cd $dir
     dirName=$(basename "$dir")
-    echo "=== Auditing $dirName ==="
-    if [ "$arg" == "fix" ] ; then
-      npm audit fix
-    else
-      npm audit
-    fi
+    check "$dirName"
 
     cd $homeDir
 done
