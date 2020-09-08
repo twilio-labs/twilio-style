@@ -4,11 +4,28 @@
 ## Cleans up the node_modules, re-installs everything, runs test before publishing
 ## By default, it will attempt to publish as next-gen, unless 'public' is provided
 ## i.e.
-##    ./bin/publish public      publishes as a bump
-##    ./bin/publish             publishes as next-gen
+##    ./bin/publish public patch        publishes as main version patch
+##    ./bin/publish alpha  minor        publishes as next-gen alpha minor bump
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 LERNA="$DIR/../node_modules/.bin/lerna"
+
+# Release tag
+tag="alpha"
+if [ "$1" == "public" ] ; then
+  tag="public"
+fi
+if [ "$1" == "beta" ] ; then
+  tag="beta"
+fi
+# Version bump
+bump="patch"
+if [ "$1" == "minor" ] ; then
+  bump="minor"
+fi
+if [ "$1" == "major" ] ; then
+  bump="major"
+fi
 
 # Runs script but quits if script exists with non-zero exit code
 function run_script() {
@@ -22,15 +39,11 @@ function run_script() {
 # Show notification and a countdown before publihsing
 secs=5
 while [ $secs -gt 0 ]; do
-  tag="beta (next)"
-  if [ "$1" == "public" ] ; then
-    tag="public"
-  fi
-  echo -ne "Publishing as a \033[1m${tag}\033[0m release in ${secs}sec\033[0K\r"
+  echo -ne "Publishing as a \033[1m${tag}\033[0m with a \033[1m${bump}\033[0m bump in ${secs}sec\033[0K\r"
   sleep 1
   : $((secs--))
 done
-echo -ne "Publishing as a \033[1m${tag}\033[0m release\033[0K\r"
+echo -ne "Publishing as a \033[1m${tag}\033[0m with a \033[1m${bump}\033[0m bump\033[0K\r"
 echo -ne "\r\n"
 
 # Cleanup
@@ -45,14 +58,11 @@ run_script npm install
 run_script npm run test
 
 # Publish
+echo -e "\n------------------------------------"
+echo "-- Publishing as a ${tag} release --"
+echo -e "------------------------------------\n"
 if [ "$1" == "public" ] ; then
-  echo -e "\n------------------------------------"
-  echo "-- Publishing as a public release --"
-  echo -e "------------------------------------\n"
-  run_script $LERNA publish
+  run_script $LERNA publish "${bump}"
 else
-  echo -e "\n-----------------------------------------"
-  echo "-- Publishing as a beta (next) release --"
-  echo -e "-----------------------------------------\n"
-  run_script $LERNA publish --dist-tag next
+  run_script $LERNA publish "${bump}" --dist-tag "${tag}"
 fi
