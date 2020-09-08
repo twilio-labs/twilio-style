@@ -20,10 +20,10 @@ if [ "$1" == "beta" ] ; then
 fi
 # Version bump
 bump="patch"
-if [ "$1" == "minor" ] ; then
+if [ "$2" == "minor" ] ; then
   bump="minor"
 fi
-if [ "$1" == "major" ] ; then
+if [ "$2" == "major" ] ; then
   bump="major"
 fi
 
