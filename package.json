@@ -44,10 +44,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^26.0.4",
-    "babel-jest": "^26.1.0",
-    "husky": "^4.2.5",
-    "jest": "^26.1.0",
+    "@types/jest": "^26.0.13",
+    "babel-jest": "^26.3.0",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
     "lerna": "^3.22.1",
     "ncu": "^0.2.1"
   }
