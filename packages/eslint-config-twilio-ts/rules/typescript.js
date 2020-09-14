@@ -1,4 +1,7 @@
 module.exports = {
+  // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+  'no-shadow': 'off',
+
   // We use Interface instead of PropTypes in TS
   'react/prop-types': 'off',
 
@@ -46,4 +49,7 @@ module.exports = {
   '@typescript-eslint/restrict-plus-operands': 'error',
   '@typescript-eslint/typedef': 'off',
   '@typescript-eslint/unified-signatures': 'error',
+
+  // We don't have to force return type as error
+  '@typescript-eslint/explicit-module-boundary-types': 'warn',
 };
