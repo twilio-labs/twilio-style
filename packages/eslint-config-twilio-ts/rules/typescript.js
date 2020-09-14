@@ -1,6 +1,6 @@
 module.exports = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
-  "no-shadow": "off",
+  'no-shadow': 'off',
 
   // We use Interface instead of PropTypes in TS
   'react/prop-types': 'off',
