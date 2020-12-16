@@ -1,19 +1,41 @@
+os: linux
+
 language: node_js
 
 node_js:
-  - '10'
-  - '12'
   - '14'
-  - 'node'
+  - '12'
+  - '10'
+  - node
 
 before_script:
-  - npm install
+  - npm install --no-package-lock
 
 script:
   - npm run lint
   - npm run test
 
+before_deploy:
+  - npm config set access public
+  - npm config set registry https://registry.npmjs.org
+  - npm set //registry.npmjs.org/:_authToken "$NPM_TOKEN"
+
+deploy:
+  provider: script
+  script: npm run publish
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: main
+    repo: twilio-labs/twilio-style
+    node_js: '10'
+
 branches:
   only:
   - main
   - /^v\d+\.\d+\.\d+$/
+
+notifications:
+  slack:
+    rooms:
+      secure: Fcsx10rp1E+jMafKqndHMYGXStmHerhSM3PfdGMhRxNHVykuKrBMa2vcKHtYAp4NqaI2/KspPjm57tUN+1oDgYDfIM9aiHUhnTHVJl14tF1/szIc6Q8rvlVhe8d/8Ebh3xy5HjPTPXGg1p2YmJkGEqr/86ASnk4Cj1gtvSj0tcbpxv6vmc3gHpYNt6X8nini2zccjtrUzw5pXnirysWaIhlB/+V9G28z7vRpknYh8l3Kayg0rIxF4ZLLrIP0/u8rkYxnnS3v9lXjAfIVjZWEGmijVBmsamzRa3aHDdaEdeV19oDdGqFoY11r3fkOMroNQuTswPVqxw7PnnaMkQD9gwenhzvSE32UAS6R+NdfeRyZrLaEA6t5973hoDbritGuLsVDn8eStzp1+5gu+RJux6RMLyH+Ny6smcV+Kb7jdGXUAf0slMYTCOceLI1SEOTTLT5IHyKJyrUEXcgzxDaivjQoiqqZMJzF4hIaam/8Chf4e9FY2u3mN4CitEztVDOP4dJ8ZKOz3NgMyhyHmDUuen6CoGhOay8Qus+hnncMOgrCTG/JN5c4xH2Lq0XU7GCYP+UKT4qMUlrWWoi2iAks/c29+j0MCm2fxi2yDdvZZAnj7Pu6qWEUfZ0KdOg62Du2ciTtLZCQuP0I3BdeyHbzTMub7N0kIYIBMtv+kWQSspo=
