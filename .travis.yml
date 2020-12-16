@@ -1,7 +1,10 @@
 language: node_js
 
 node_js:
+  - '10'
   - '12'
+  - '14'
+  - 'node'
 
 before_script:
   - npm install
@@ -11,7 +14,6 @@ script:
   - npm run test
 
 branches:
-  except:
-  - /^v\d+\.\d+\.\d+$/
   only:
-  - master
+  - main
+  - /^v\d+\.\d+\.\d+$/
