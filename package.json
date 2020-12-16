@@ -25,6 +25,9 @@
     "Kousha Talebian <k@ousha.me>"
   ],
   "scripts": {
+    "audit": "npm audit && lerna-audit --no-fix",
+    "audit:fix": "npm audit fix && lerna-audit",
+    "postaudit:fix": "npm install",
     "bootstrap": "lerna exec -- npm i && lerna link",
     "postinstall": "npm run bootstrap",
     "lint": "lerna run lint --stream --no-prefix",
