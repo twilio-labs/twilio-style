@@ -59,7 +59,7 @@ Then add the following two scripts for running and fixing your codebase:
 }
 ```
 
-### .prettier.js
+### Prettier
 
 If you want to allow your IDE to auto-format your code as you save it, then create a `.prettierrc.js` and add:
 

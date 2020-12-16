@@ -82,7 +82,7 @@ NOTE: `twilio-ts` should come after `twilio-react` because `twilio-ts` overrides
 }
 ```
 
-### .prettier.js
+### Prettier
 
 If you want to allow your IDE to auto-format your code as you save it, then create a `.prettierrc.js` and add:
 
