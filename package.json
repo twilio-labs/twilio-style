@@ -1,6 +1,5 @@
 {
   "name": "twilio-style",
-  "version": "1.3.0",
   "description": "Twilio's JavaScript linting style",
   "keywords": [
     "config",
@@ -28,15 +27,15 @@
     "audit": "npm audit && lerna-audit --no-fix",
     "audit:fix": "npm audit fix && lerna-audit",
     "postaudit:fix": "npm install",
-    "bootstrap": "lerna exec -- npm i && lerna link",
+    "bootstrap": "lerna bootstrap",
     "postinstall": "npm run bootstrap",
-    "lint": "lerna run lint --stream --no-prefix",
-    "lint:fix": "lerna run lint:fix --stream --no-prefix",
+    "lint": "lerna run lint",
+    "lint:fix": "lerna run lint:fix",
     "publish": "lerna-travis-publish",
     "release:alpha": "lerna-travis-release alpha",
     "release:beta": "lerna-travis-release beta",
     "release:public": "lerna-travis-release public",
-    "test": "lerna run test --stream --no-prefix"
+    "test": "lerna run test"
   },
   "husky": {
     "hooks": {
