@@ -24,11 +24,11 @@
     "Alice Cai <ahcai@berkeley.edu>",
     "Kousha Talebian <k@ousha.me>"
   ],
+  "main": "index.js",
   "files": [
     "rules",
     "index.js"
   ],
-  "main": "index.js",
   "scripts": {
     "lint": "eslint --ext js index.js rules/",
     "lint:fix": "npm run lint -- --fix",

@@ -25,27 +25,33 @@
     "Alice Cai <ahcai@berkeley.edu>",
     "Kousha Talebian <k@ousha.me>"
   ],
+  "main": "index.js",
   "files": [
     "rules",
     "index.js"
   ],
-  "main": "index.js",
   "scripts": {
     "lint": "eslint --ext js index.js rules/",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --coverage --color"
   },
   "dependencies": {
+    "eslint-config-prettier": "^7.0.0",
     "eslint-config-twilio": "^1.30.2",
+    "eslint-config-twilio-base": "^1.28.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-no-only-tests": "^2.4.0",
+    "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.2.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0",
     "react": "^16.0.0 || ^17.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
   }
 }
