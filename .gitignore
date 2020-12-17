@@ -68,3 +68,4 @@ lerna-debug.log
 .lerna_backup
 
 .idea
+.env
