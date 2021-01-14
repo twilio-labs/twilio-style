@@ -1,7 +1,7 @@
 const rules = require('./rules');
 
 module.exports = {
-  extends: ['twilio'],
+  extends: ['twilio', 'plugin:no-unsanitized/DOM'],
   plugins: ['jsx-a11y', 'react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {

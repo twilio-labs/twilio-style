@@ -1,3 +1,5 @@
+const PARENS_NEW_LINE = 'parens-new-line';
+
 module.exports = {
   'react/boolean-prop-naming': 'off',
   'react/button-has-type': [
@@ -176,13 +178,13 @@ module.exports = {
   'react/jsx-wrap-multilines': [
     'error',
     {
-      declaration: 'parens-new-line',
-      assignment: 'parens-new-line',
-      return: 'parens-new-line',
-      arrow: 'parens-new-line',
-      condition: 'parens-new-line',
-      logical: 'parens-new-line',
-      prop: 'parens-new-line',
+      declaration: PARENS_NEW_LINE,
+      assignment: PARENS_NEW_LINE,
+      return: PARENS_NEW_LINE,
+      arrow: PARENS_NEW_LINE,
+      condition: PARENS_NEW_LINE,
+      logical: PARENS_NEW_LINE,
+      prop: PARENS_NEW_LINE,
     },
   ],
 };
