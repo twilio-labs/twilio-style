@@ -3,7 +3,7 @@ const rules = require('./rules');
 const allExtensions = ['.ts', '.tsx', '.d.ts', '.js', '.jsx'];
 
 module.exports = {
-  extends: ['twilio-base', 'prettier'],
+  extends: ['twilio-base', 'prettier', 'plugin:sonarjs/recommended'],
   plugins: ['import', 'prettier', 'no-only-tests'],
   settings: {
     'import/extensions': allExtensions,
