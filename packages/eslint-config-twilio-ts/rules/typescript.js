@@ -52,4 +52,8 @@ module.exports = {
 
   // We don't have to force return type as error
   '@typescript-eslint/explicit-module-boundary-types': 'warn',
+
+  // See https://github.com/typescript-eslint/typescript-eslint/blob/v4.13.0/packages/eslint-plugin/docs/rules/no-use-before-define.md
+  'no-use-before-define': 'off',
+  '@typescript-eslint/no-use-before-define': ['error'],
 };
