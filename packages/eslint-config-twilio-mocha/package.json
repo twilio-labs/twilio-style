@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio-mocha",
-  "version": "1.31.0",
+  "version": "1.32.0",
   "description": "Twilio's ESLint Mocha config",
   "keywords": [
     "config",
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^7.0.0",
-    "eslint-config-twilio": "^1.31.0",
+    "eslint-config-twilio": "^1.32.0",
     "eslint-config-twilio-base": "^1.31.0",
     "eslint-plugin-chai-friendly": "^0.6.0",
     "eslint-plugin-import": "^2.22.1",
