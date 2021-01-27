@@ -14,6 +14,7 @@ This config includes the following plugins and extensions:
 - [`prettier`](https://www.npmjs.com/package/prettier)
 - [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)
 - [`eslint-plugin-no-only-tests`](https://www.npmjs.com/package/eslint-plugin-no-only-tests)
+- [`eslint-plugin-sonarjs`](https://www.npmjs.com/package/eslint-plugin-sonarjs)
 
 ## Installation
 

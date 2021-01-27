@@ -14,6 +14,7 @@ This config includes the following plugins and extensions:
 - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
 - [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 - [`eslint-plugin-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+- [`eslint-plugin-no-unsanitized`](https://www.npmjs.com/package/eslint-plugin-no-unsanitized)
 
 ## Installation
 
