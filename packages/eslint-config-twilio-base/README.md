@@ -14,4 +14,4 @@ $ npm install eslint eslint-config-twilio-base --save-dev
 
 ## Usage
 
-This package is not intended to be used by its own; all of the remaining Twilio styles will be extending this base package. 
+This package is not intended to be used by its own; all the remaining Twilio styles will be extending this base package. 

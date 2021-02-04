@@ -84,7 +84,7 @@ NOTE: `twilio-ts` should come after `twilio-react` because `twilio-ts` overrides
 
 ### Prettier
 
-If you want to allow your IDE to auto-format your code as you save it, then create a `.prettierrc.js` and add:
+If you want to allow your IDE to auto-format your code as you save it, then create `.prettierrc.js` and add:
 
 ```js
 const baseConfig = require('./node_modules/eslint-config-twilio/rules/prettier');
