@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio",
-  "version": "1.33.0",
+  "version": "1.33.1",
   "description": "Twilio's ESLint config",
   "keywords": [
     "config",
@@ -37,7 +37,7 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^7.0.0",
-    "eslint-config-twilio-base": "^1.31.0",
+    "eslint-config-twilio-base": "^1.33.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-no-only-tests": "^2.4.0",
     "eslint-plugin-prettier": "^3.3.0",
