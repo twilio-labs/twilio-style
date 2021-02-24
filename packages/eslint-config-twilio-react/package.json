@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twilio-react",
-  "version": "1.33.1",
+  "version": "1.33.2",
   "description": "Twilio's ESLint React config",
   "keywords": [
     "config",
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^7.0.0",
-    "eslint-config-twilio": "^1.33.1",
+    "eslint-config-twilio": "^1.33.2",
     "eslint-config-twilio-base": "^1.33.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
