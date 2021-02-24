@@ -5,7 +5,7 @@ const allExtensions = ['.ts', '.tsx', '.d.ts', '.js', '.jsx'];
 module.exports = {
   extends: ['twilio-base', 'prettier', 'plugin:sonarjs/recommended'],
   plugins: ['import', 'prettier', 'no-only-tests'],
-  parser: '@babel/eslint-parser',
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2019,
   },
