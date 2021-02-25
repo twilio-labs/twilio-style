@@ -74,6 +74,15 @@
         "ideas",
         "bug"
       ]
+    },
+    {
+      "login": "philnash",
+      "name": "Phil Nash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31462?v=4",
+      "profile": "https://philna.sh",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
