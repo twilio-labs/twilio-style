@@ -15,16 +15,10 @@ git clone https://github.com/twilio-labs/twilio-style.git
 cd twilio-style
 ```
 
-Install the monorepo dependencies:
+Install the monorepo dependencies and bootstrap the monorepo:
 
 ```bash
 npm install
-```
-
-Bootstrap the monorepo:
-
-```bash
-npm run bootstrap
 ```
 
 Run the tests:
