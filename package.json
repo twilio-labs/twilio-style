@@ -33,7 +33,7 @@
     "lint:fix": "lerna run lint:fix",
     "prepare": "husky install",
     "publish": "lerna-travis-publish",
-    "release": "lerna-travis-releacse $1 $2",
+    "release": "lerna-travis-release $1 $2",
     "release:alpha": "npm run release alpha $1",
     "release:beta": "npm run release beta $1",
     "release:public": "npm run release public $1",
