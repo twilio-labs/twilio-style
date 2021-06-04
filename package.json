@@ -32,15 +32,9 @@
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
     "prepare": "husky install",
-    "publish": "lerna-travis-publish",
-    "release": "lerna-travis-release $1 $2",
-    "release:alpha": "npm run release alpha $1",
-    "release:beta": "npm run release beta $1",
-    "release:public": "npm run release public $1",
     "test": "lerna run test"
   },
   "devDependencies": {
-    "@k88/lerna-travis": "^1.1.2",
     "@types/jest": "^26.0.23",
     "auto-changelog": "^2.3.0",
     "babel-jest": "^27.0.2",
