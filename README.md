@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![License](https://img.shields.io/npm/l/eslint-config-twilio.svg?style=square)](./LICENSE)
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat)](#contributors-)
 
 **_All thoughts, issues, and pull requests are welcome!_**
 
