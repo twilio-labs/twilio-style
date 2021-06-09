@@ -12,7 +12,9 @@
       "profile": "https://github.com/ahcai",
       "contributions": [
         "code",
-        "ideas"
+        "doc",
+        "ideas",
+        "review"
       ]
     },
     {
@@ -21,6 +23,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/2308915?v=4",
       "profile": "https://github.com/ktalebian",
       "contributions": [
+        "code",
+        "doc",
         "ideas",
         "review"
       ]
