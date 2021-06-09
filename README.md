@@ -8,7 +8,9 @@
 
 **_All thoughts, issues, and pull requests are welcome!_**
 
-Twilio's approach to JavaScript styling. It combines both the ESLint rules and Prettier to create an opinionated set of styling and linting rules to use with your JavaScript and TypeScript projects. There is also a [Twilio Style CLI](https://github.com/twilio-labs/twilio-style-cli) to help projects onboard.
+Twilio's approach to JavaScript styling. It combines both the ESLint rules and Prettier to create an opinionated set of styling and linting rules to use with your JavaScript and TypeScript projects.
+
+_Note: There is also a [Twilio Style CLI](https://github.com/twilio-labs/twilio-style-cli) to help projects onboard._
 
 ## Guides
 
