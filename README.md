@@ -20,6 +20,26 @@ This monorepo contains styling guide for:
 * [React](./packages/eslint-config-twilio-react)
 * [TypeScript](./packages/eslint-config-twilio-ts)
 
+## Plugins and Extensions
+
+These guides include the following plugins and extensions:
+
+* [JavaScript](./packages/eslint-config-twilio)
+  - [`eslint-config-twilio-base`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio-base)
+  - [`prettier`](https://www.npmjs.com/package/prettier)
+  - [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)
+  - [`eslint-plugin-no-only-tests`](https://www.npmjs.com/package/eslint-plugin-no-only-tests)
+  - [`eslint-plugin-sonarjs`](https://www.npmjs.com/package/eslint-plugin-sonarjs)
+* [React](./packages/eslint-config-twilio-react)
+  - [`eslint-config-twilio`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio)
+  - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
+  - [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+  - [`eslint-plugin-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+  - [`eslint-plugin-no-unsanitized`](https://www.npmjs.com/package/eslint-plugin-no-unsanitized)
+* [TypeScript](./packages/eslint-config-twilio-ts)
+  - [`eslint-config-twilio`](https://github.com/twilio-labs/twilio-style/tree/master/packages/eslint-config-twilio)
+  - [`@typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint)
+
 ## Usage
 
 Please refer to the guides above for usage of each guide you want.
