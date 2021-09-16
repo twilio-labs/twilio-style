@@ -45,7 +45,7 @@
     "typescript": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0",
+    "eslint": "^7.16.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-twilio-base": "^1.35.1",
     "eslint-plugin-import": "^2.23.4",
