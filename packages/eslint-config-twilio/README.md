@@ -62,7 +62,10 @@ Then add the following two scripts for running and fixing your codebase:
 
 ### Prettier
 
-If you want to allow your IDE to auto-format your code as you save it, then create `.prettierrc.js` and add:
+This package makes use of Prettier for setting specific code formatting rules in your project.
+
+If you want to allow your IDE to auto-format your code as you save it, then create a `.prettierrc.js`
+and import the base configuration from the `eslint-config-twilio`.
 
 ```js
 const baseConfig = require('./node_modules/eslint-config-twilio/rules/prettier');
@@ -70,4 +73,15 @@ const baseConfig = require('./node_modules/eslint-config-twilio/rules/prettier')
 module.exports = {
   ...baseConfig,
 };
-``` 
+```
+
+You might also want to edit/extend those rules according to your project style-guide.
+To do that, you will need to make ESLint aware of the changes.
+
+From your `.eslintrc` file, add the following override rules:
+
+```json
+"prettier/prettier": ["warn", {}, {
+  "usePrettierrc": true
+}],
+```
