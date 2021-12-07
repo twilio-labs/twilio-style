@@ -1,0 +1,74 @@
+version: 2.1
+
+parameters:
+  run_pr_validator:
+    default: true
+    type: boolean
+
+executors:
+  node:
+    parameters:
+      tag:
+        type: string
+    docker:
+      - image: cimg/node:<< parameters.tag >>-browsers
+  macos:
+    macos:
+      xcode: 11.3.0
+
+orbs:
+  node: circleci/node@4.4.0
+
+commands:
+  cmd_install-dependencies:
+    steps:
+      - run:
+          name: "Install project dependencies"
+          command: npm i
+  cmd_run-tests:
+    steps:
+      - run:
+          name: "Run unit tests"
+          command: npm run test
+  cmd_run-linter:
+    steps:
+      - run:
+          name: "Run linter"
+          command: npm run lint
+  cmd_slack-notification-error:
+    parameters:
+      text:
+        type: string
+    steps:
+      - run:
+          name: Send Slack notification
+          command: |
+            curl -XPOST -H "Content-type:application/json" --data "{'text':':error: $CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH - << parameters.text >>. View <$CIRCLE_BUILD_URL|build>.', 'mrkdwn':true}" $SLACK_WEBHOOK
+          when: on_fail
+
+jobs:
+  job_pr-validator-node:
+    resource_class: medium
+    parameters:
+      node-version:
+        type: string
+    executor:
+      name: node
+      tag: << parameters.node-version >>
+    steps:
+      - checkout
+      - cmd_install-dependencies
+      - cmd_run-linter
+      - cmd_run-tests
+
+workflows:
+  workflow_pr-validator:
+    when: << pipeline.parameters.run_pr_validator >>
+    jobs:
+      - job_pr-validator-node:
+          matrix:
+            parameters:
+              node-version: ["12.21", "14.16", "16.5"]
+          post-steps:
+            - cmd_slack-notification-error:
+                text: "$CIRCLE_PULL_REQUEST validation failed on *Node:${CIRCLE_JOB/job_pr-validator-node-/''}*."
