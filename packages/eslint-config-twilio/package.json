@@ -35,19 +35,19 @@
     "test": "jest --coverage --color"
   },
   "dependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.16.3",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-twilio-base": "^1.35.1",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-no-only-tests": "^2.6.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-sonarjs": "^0.7.0",
-    "prettier": "^2.3.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "prettier": "^2.5.1"
   },
   "devDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
+    "eslint": "^8"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
+    "eslint": "^8"
   }
 }
