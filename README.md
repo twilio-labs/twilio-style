@@ -1,6 +1,6 @@
 # const TwilioStyle = () => {
 
-[![Status](https://travis-ci.com/twilio-labs/twilio-style.svg?branch=master)](https://travis-ci.com/twilio-labs/twilio-style)
+[![Status](https://circleci.com/gh/twilio-labs/twilio-style/tree/main.svg?style=shield](https://app.circleci.com/pipelines/github/twilio-labs/twilio-style?branch=main)
 [![Version](https://img.shields.io/npm/v/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![Downloads](https://img.shields.io/npm/dt/eslint-config-twilio.svg?style=square)](https://www.npmjs.com/package/eslint-config-twilio)
 [![License](https://img.shields.io/npm/l/eslint-config-twilio.svg?style=square)](./LICENSE)
