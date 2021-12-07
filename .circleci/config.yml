@@ -48,7 +48,7 @@ commands:
 
 jobs:
   job_pr-validator-node:
-    resource_class: small
+    resource_class: medium
     parameters:
       node-version:
         type: string
