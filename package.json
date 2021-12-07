@@ -38,6 +38,7 @@
     "@types/jest": "^26.0.23",
     "auto-changelog": "^2.3.0",
     "babel-jest": "^27.0.2",
+    "enhanced-resolve": "^5.8.3",
     "husky": "^5.2.0",
     "jest": "^27.0.4",
     "lerna": "^4.0.0",

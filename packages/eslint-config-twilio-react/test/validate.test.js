@@ -1,17 +1,17 @@
 const path = require('path');
-const CLIEngine = require('eslint').CLIEngine;
+const CLIEngine = require('eslint').ESLint;
 
 describe('eslint-config-twilio-react', () => {
-  it('lints correctly', () => {
+  it('lints correctly', async () => {
     const eslint = new CLIEngine({
-      configFile: path.join(__dirname, '../index.js'),
+      overrideConfigFile: path.join(__dirname, '../index.js'),
       extensions: [ 'jsx' ],
     });
-    const report = eslint.executeOnFiles([
+    const report = await eslint.lintFiles([
       path.join(__dirname, 'code')
     ]);
 
-    expect(report.results.length).toBeGreaterThan(0);
-    expect(report.errorCount).toBeGreaterThan(0);
+    expect(report.length).toBeGreaterThan(0);
+    expect(report[0].errorCount).toBeGreaterThan(0);
   });
 });

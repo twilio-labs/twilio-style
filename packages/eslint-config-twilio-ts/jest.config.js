@@ -6,6 +6,7 @@ module.exports = {
   name: pkg.name,
   displayName: pkg.name,
   rootDir: '../..',
+  resolver: '<rootDir>/jest-resolver.js',
   testMatch: [
     `<rootDir>/packages/${pkg.name}/test/**/*.test.ts`
   ],
