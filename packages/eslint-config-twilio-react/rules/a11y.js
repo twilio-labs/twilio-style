@@ -41,13 +41,10 @@ module.exports = {
   'jsx-a11y/img-redundant-alt': 'error',
   'jsx-a11y/interactive-supports-focus': 'error',
   'jsx-a11y/label-has-associated-control': [
-    'error',
+    2,
     {
-      labelComponents: [],
-      labelAttributes: [],
-      controlComponents: [],
-      assert: 'both',
-      depth: 25,
+      assert: 'either',
+      depth: 3,
     },
   ],
   'jsx-a11y/lang': 'error',
