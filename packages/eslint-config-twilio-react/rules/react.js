@@ -53,7 +53,7 @@ module.exports = {
   'react/no-direct-mutation-state': 'error',
   'react/no-find-dom-node': 'error',
   'react/no-is-mounted': 'error',
-  'react/no-multi-comp': 'warn',
+  'react/no-multi-comp': ['error', {ignoreStateless: true}],
   'react/no-redundant-should-component-update': 'error',
   'react/no-render-return-value': 'error',
   'react/no-set-state': 'off',
